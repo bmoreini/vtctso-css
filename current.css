@@ -135,5 +135,21 @@ body.home h1.entry-title {
 /* hide featured image */
 
 .wpbf-datasheet-content .article-header img.wpbf-post-image{
- display: none;
+ display:none;
+}
+
+/* Home Page Styling */
+body.home h2.elementor-heading-title {
+	padding-top:.5em;
+	padding-bottom:.5em;
+	display:block;
+}
+
+body.home .elementor-element-7dddfa0 h2.elementor-heading-title, h6.elementor-heading-title {
+	padding-bottom:0px;
+	line-height:.25em;
+}
+
+.elementor-element-2ff0216 img {
+	margin:-20px auto;
 }
