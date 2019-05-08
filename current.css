@@ -153,3 +153,16 @@ body.home .elementor-element-7dddfa0 h2.elementor-heading-title, h6.elementor-he
 .elementor-element-2ff0216 img {
 	margin:-20px auto;
 }
+
+#wp-calendar td{
+	text-align:center;
+	padding:0px;
+	
+}
+
+#wp-calendar a {
+	display:block;
+	width:100%;
+	height:100%;
+	background-color:lightblue;
+}
