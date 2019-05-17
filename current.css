@@ -1,8 +1,12 @@
-/* Home Style Changes */
+/* Widget Style */
 
 .elementor-widget-heading.elementor-widget-heading .elementor-heading-title {
 	color:black!important;
 }
+
+/* Left Sidebar Style */
+
+
 .wpbf-sidebar .widget {
 	background-color:#07527D!important;
 	color:#ccc!important;
@@ -19,15 +23,18 @@
 	color:yellow!important;
 }
 
+/* Navigation Style */
 .wpbf-navigation{
 	background-color:black!important;
 	color:white;
 	height:60px;
+	border:0px;
+	padding:0px;
 }
 
 .wpbf-navigation li.current-menu-item a, .wpbf-navigation li.menu-item a:hover {
 	background-color:#01537D;
-	color:black!important;
+	color:white!important;
 }
 
 .wpbf-navigation li.menu-item a {
@@ -46,15 +53,14 @@
 	padding-top:5px!important;
 }
 
+/* Logo Styling */
+
 .wpbf-logo a, .wpbf-mobile-logo-container a {
 	color:white!important;
 }
 
 .wpbf-logo a:hover, .wpbf-mobile-logo-container a:hover {
 	color:yellow!important;
-}
-.elementor-element-2ff0216 .elementor-image img:hover {
-	border:3px solid #E78B21!important;
 }
 
 .elementor-element-2ff0216 .elementor-image img {
@@ -64,6 +70,8 @@
 .elementor-element-2ff0216 .elemntor-widget:hover {
 	background-color:yellow;
 }
+
+/* Home Style Changes */
 
 body.home h1.entry-title {
 	display:none!important;
