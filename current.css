@@ -22,6 +22,11 @@
 	color:yellow!important;
 }
 
+.wpbf-sidebar h4 {
+	color:white;
+	font-weight:bold;
+}
+
 /* Navigation Style */
 .wpbf-navigation{
 	background-color:black!important;
