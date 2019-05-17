@@ -6,7 +6,6 @@
 
 /* Left Sidebar Style */
 
-
 .wpbf-sidebar .widget {
 	background-color:#07527D!important;
 	color:#ccc!important;
@@ -27,27 +26,26 @@
 .wpbf-navigation{
 	background-color:black!important;
 	color:white;
-	height:60px;
+	height:53px;
 	border:0px;
 	padding:0px;
+	margin-top:-10px;
 }
 
-.wpbf-navigation li.current-menu-item a, .wpbf-navigation li.menu-item a:hover {
+
+.wpbf-navigation li.current-menu-item, .wpbf-navigation li.menu-item:hover {
 	background-color:#01537D;
-	color:white!important;
 }
+
 
 .wpbf-navigation li.menu-item a {
 	color:white!important;
 }
 
-.wpbf-navigation li.menu-item ul li a {
-	color:black!important;
+.wpbf-navigation li {
+	background-color:black;
 }
 
-.wpbf-navigation li.menu-item ul li a:hover {
-	color:white!important;
-}
 
 .wpbf-nav-wrapper {
 	padding-top:5px!important;
