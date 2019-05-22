@@ -26,6 +26,11 @@
 	color:white;
 	font-weight:bold;
 }
+.wpbf-sidebar table caption {
+	font-size:20px;
+	font-weight:bold;
+	color:white;
+}
 
 /* Navigation Style */
 .wpbf-navigation{
@@ -150,6 +155,7 @@ body.home h1.entry-title {
 }
 
 /* Home Page Styling */
+
 body.home h2.elementor-heading-title {
 	padding-top:.5em;
 	padding-bottom:.5em;
@@ -176,4 +182,26 @@ body.home .elementor-element-7dddfa0 h2.elementor-heading-title, h6.elementor-he
 	width:100%;
 	height:100%;
 	background-color:lightblue;
+}
+
+.elementor-element-d205fae #wc-shortcodes-featured-posts-1 h6 {
+	line-height:1.5em;
+	font-weight:normal;
+	margin-left:15px;
+}
+.elementor-element-d205fae  .wc-shortcodes-featured-posts-content {
+	margin:0!important;
+	padding:0;
+	padding-bottom:15px;
+}
+
+/* News Page */
+select.js-wpv-filter-trigger {
+	height:50px;
+}
+#respond {
+	display:none;
+}
+p.footer-categories {
+	display:none;
 }
