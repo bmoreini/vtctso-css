@@ -1,7 +1,28 @@
-/* Widget Style */
+/* Widget Styles */
 
 .elementor-widget-heading.elementor-widget-heading .elementor-heading-title {
 	color:black!important;
+}
+
+.mc4wp-form-fields p {
+	font-family: "Roboto", Sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	padding:0px;
+}
+.mc4wp-form-fields p {
+	padding-bottom:0px;
+	margin-bottom:0px;
+}
+
+.mc4wp-form-fields p label {
+	padding-bottom:0px!important;
+	margin:0;
+}
+
+
+.mc4wp-form-fields:nth-child(3){
+   display:none!important;
 }
 
 /* Left Sidebar Style */
