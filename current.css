@@ -97,6 +97,10 @@ body.home h1.entry-title {
 	} 
 }
 
+.welcome {
+	width:100%!important;
+	margin-top:20px;
+}
 /* Stages Menu Changes */
 
 #stages {
@@ -205,3 +209,4 @@ select.js-wpv-filter-trigger {
 p.footer-categories {
 	display:none;
 }
+
