@@ -122,6 +122,11 @@ body.home h1.entry-title {
 	width:100%!important;
 	margin-top:20px;
 }
+
+.welcome p {
+	padding:0!important;	
+}
+
 /* Stages Menu Changes */
 
 #stages {
@@ -173,6 +178,25 @@ body.home h1.entry-title {
   padding-top:3px;
   display:block;
 }
+
+@media (max-width: 699px) { 
+	
+	#stages li {
+		float:none;
+		display:block;
+		margin-bottom:10px;
+		margin-left:50px;
+	}
+	
+	#stages {
+		width:100%;
+		text-align:center;
+	}
+	h1 {
+		font-size:1.5em;
+	}
+}
+
 /* hide featured image */
 
 .wpbf-datasheet-content .article-header img.wpbf-post-image{
