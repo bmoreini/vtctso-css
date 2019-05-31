@@ -258,3 +258,10 @@ p.footer-categories {
 article.monthly-newsletter header {
 	display:none;
 }
+
+#masthead{
+	width:100%;
+	background: center -30px url("/wp-content/uploads/2019/05/CTSO-Banner-with-logos.jpg") no-repeat;
+	text-align:center;
+	height:125px;
+}
