@@ -265,3 +265,7 @@ article.monthly-newsletter header {
 	text-align:center;
 	height:125px;
 }
+article.monthly-newsletter {
+	max-width:1550px!important;
+	margin:0 auto;
+}
