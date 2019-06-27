@@ -269,3 +269,10 @@ article.monthly-newsletter {
 	max-width:1550px!important;
 	margin:0 auto;
 }
+
+
+/* Usability Menu */
+
+body .userway.userway_p1 {
+	top:50px!important;
+}
