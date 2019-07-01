@@ -270,9 +270,13 @@ article.monthly-newsletter {
 	margin:0 auto;
 }
 
-
 /* Usability Menu */
 
 body .userway.userway_p1 {
-	top:50px!important;
+	top:45px!important;
+}
+
+/* Datasheets */
+body.single-datasheet h4 {
+	padding-top:.5em!important;
 }
