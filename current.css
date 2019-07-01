@@ -280,3 +280,6 @@ body .userway.userway_p1 {
 body.single-datasheet h4 {
 	padding-top:.5em!important;
 }
+body.single-datasheet h3 {
+	padding-bottom:.5em!important;
+}
