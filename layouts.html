@@ -1,0 +1,124 @@
+<!-- Top -->
+<!-- Image -->
+<div style="width:100%;text-align:center;"><a href="[types field='ctso-website' output='raw'][/types]">[wpv-post-featured-image]</a></div>
+<!-- Teaser -->
+<p>[wpv-post-body view_template="None"]<strong>Website: </strong><a style="color:blue!important;font-weight:bold!important;" href="[types field='ctso-website' output='raw'][/types]">[types field='ctso-website' output='raw'][/types]</a></p>
+
+<!--Contacts-->
+<h2>CTSO Contacts</h2>
+<p>[types field='name'][/types], [types field='position'][/types]<br />
+[types field='their-email'][/types]</p>
+
+<!--Websites-->
+<h2>Websites</h2>
+<ol>
+<li><strong>Vermont Site</strong>:[types field='vermont-site' target='_blank'][/types]</li>
+<li><strong>National Site</strong>:[types field='national-site' target='_blank'][/types]</li>
+</ol>
+
+<!--Reports-->
+<h2>Recent Reports</h2>
+<ul>
+<li><a href="[wpv-noautop][types field="program-of-work" output='raw'][/types][/wpv-noautop]">Program of Work</li>
+<li><a href="[wpv-noautop][types field="stipend-budget" output='raw'][/types][/wpv-noautop]">Stipend Budget</li>
+<li><a href="[wpv-noautop][types field="fall-conference-financial" output='raw'][/types][/wpv-noautop]">Fall Conference</li>
+<li><a href="[wpv-noautop][types field="spring-conference-financial" output='raw'][/types][/wpv-noautop]">Spring Conference</li>
+</ul>
+
+
+<!--Dues and Fees-->
+<h3>Dues &amp; Membership Fees</h3>
+<strong>Student Dues: </strong>$[types field='student-dues' format='FIELD_VALUE'][/types]
+[wpv-conditional if="( $(wpcf-teacher-membership-dues) gt '0' )"]<strong>Teacher/Professional Dues: </strong>$[types field='teacher-dues' format='FIELD_VALUE'][/types][/wpv-conditional]<strong>Chapter Membership Dues: </strong>$[types field='chapter-membership' format='FIELD_VALUE'][/types]
+<h3>Conference Registrations</h3>
+<h4>Fall</h4>
+<strong>Date: </strong>[types field='fall-conference-date2' style='text' format='F j, Y'][/types]
+<strong>Registration: </strong>$[types field='fall-registration' format='FIELD_VALUE'][/types]
+<strong>Location: </strong>[types field='fall-conference-location'][/types]
+<h4>State</h4>
+<p><strong>Date: </strong>[types field='state-conference-date' style='text' format='F j, Y'][/types]
+<strong>Registration: </strong>[types field='state-registration' format='FIELD_VALUE'][/types]
+<strong>Location: </strong>[types field='state-conference-location'][/types]
+<h4>National</h4>
+<strong>Dates: </strong>[types field='national-conference-dates'][/types]
+<strong>Registration: </strong>[types field='national-registration' format='FIELD_VALUE']
+<strong>Location: </strong>[types field='national-conference-location'][/types]
+<h3>Summary</h3>
+[wpv-conditional if="( $(wpcf-other) gt '0' )"]<strong>Other Fees: </strong> $[types field='other' format='FIELD_VALUE'][/types][/wpv-conditional]<strong>Total Program Fees: </strong>$[types field='total-fees' format='FIELD_VALUE'][/types]
+
+<!--Skills Competitions-->
+<h3>Skills Competitions Offered</h3>[types field='skills-competition' option='0' state='checked']Accounting<br />[/types][types field='skills-competition' option='0' state='unchecked'][/types]
+[types field='skills-competition' option='1' state='checked']Agricultural Animal Care<br />[/types][types field='skills-competition' option='1' state='unchecked'][/types]
+[types field='skills-competition' option='2' state='checked']Agricultural Equipment Maintenance<br />[/types][types field='skills-competition' option='2' state='unchecked'][/types]
+[types field='skills-competition' option='3' state='checked']Animation<br />[/types][types field='skills-competition' option='3' state='unchecked'][/types]
+[types field='skills-competition' option='4' state='checked']Architecture<br />[/types][types field='skills-competition' option='4' state='unchecked'][/types]
+[types field='skills-competition' option='5' state='checked']Audio/Video Technology & Film<br />[/types][types field='skills-competition' option='5' state='unchecked'][/types]
+[types field='skills-competition' option='6' state='checked']Autobody<br />[/types][types field='skills-competition' option='6' state='unchecked'][/types]
+[types field='skills-competition' option='7' state='checked']Automotive Mechanics<br />[/types][types field='skills-competition' option='7' state='unchecked'][/types]
+[types field='skills-competition' option='8' state='checked']Aviation<br />[/types][types field='skills-competition' option='8' state='unchecked'][/types]
+[types field='skills-competition' option='9' state='checked']Banking Services<br />[/types][types field='skills-competition' option='9' state='unchecked'][/types]
+[types field='skills-competition' option='10' state='checked']Biotechnology<br />[/types][types field='skills-competition' option='10' state='unchecked'][/types]
+[types field='skills-competition' option='11' state='checked']Business Administration<br />[/types][types field='skills-competition' option='11' state='unchecked'][/types]
+[types field='skills-competition' option='12' state='checked']Carpentry<br />[/types][types field='skills-competition' option='12' state='unchecked'][/types]
+[types field='skills-competition' option='13' state='checked']Construction<br />[/types][types field='skills-competition' option='13' state='unchecked'][/types]
+[types field='skills-competition' option='14' state='checked']Correction Officer Services<br />[/types][types field='skills-competition' option='14' state='unchecked'][/types]
+[types field='skills-competition' option='15' state='checked']Counseling<br />[/types][types field='skills-competition' option='15' state='unchecked'][/types]
+[types field='skills-competition' option='16' state='checked']Dental Health<br />[/types][types field='skills-competition' option='16' state='unchecked'][/types]
+[types field='skills-competition' option='17' state='checked']Drafting and Design<br />[/types][types field='skills-competition' option='17' state='unchecked'][/types]
+[types field='skills-competition' option='18' state='checked']Early Childhood Development<br />[/types][types field='skills-competition' option='18' state='unchecked'][/types]
+[types field='skills-competition' option='19' state='checked']Electrical Services<br />[/types][types field='skills-competition' option='19' state='unchecked'][/types]
+[types field='skills-competition' option='20' state='checked']Emergency Services<br />[/types][types field='skills-competition' option='20' state='unchecked'][/types]
+[types field='skills-competition' option='21' state='checked']Engineering<br />[/types][types field='skills-competition' option='21' state='unchecked'][/types]
+[types field='skills-competition' option='22' state='checked']Environmental Systems<br />[/types][types field='skills-competition' option='22' state='unchecked'][/types]
+[types field='skills-competition' option='23' state='checked']Family & Community Services<br />[/types][types field='skills-competition' option='23' state='unchecked'][/types]
+[types field='skills-competition' option='24' state='checked']Finance<br />[/types][types field='skills-competition' option='24' state='unchecked'][/types]
+[types field='skills-competition' option='25' state='checked']Fire Management Services<br />[/types][types field='skills-competition' option='25' state='unchecked'][/types]
+[types field='skills-competition' option='26' state='checked']Food Products & Processing Systems<br />[/types][types field='skills-competition' option='26' state='unchecked'][/types]
+[types field='skills-competition' option='27' state='checked']Forensic Medicine<br />[/types][types field='skills-competition' option='27' state='unchecked'][/types]
+[types field='skills-competition' option='28' state='checked']Forestry<br />[/types][types field='skills-competition' option='28' state='unchecked'][/types]
+[types field='skills-competition' option='29' state='checked']Health Services<br />[/types][types field='skills-competition' option='29' state='unchecked'][/types]
+[types field='skills-competition' option='30' state='checked']Heating, Ventilation & AC<br />[/types][types field='skills-competition' option='30' state='unchecked'][/types]
+[types field='skills-competition' option='31' state='checked']Heavy Equipment<br />[/types][types field='skills-competition' option='31' state='unchecked'][/types]
+[types field='skills-competition' option='32' state='checked']Horticulture<br />[/types][types field='skills-competition' option='32' state='unchecked'][/types]
+[types field='skills-competition' option='33' state='checked']Human Services<br />[/types][types field='skills-competition' option='33' state='unchecked'][/types]
+[types field='skills-competition' option='34' state='checked']Information Support & Services<br />[/types][types field='skills-competition' option='34' state='unchecked'][/types]
+[types field='skills-competition' option='35' state='checked']Insurance<br />[/types][types field='skills-competition' option='35' state='unchecked'][/types]
+[types field='skills-competition' option='36' state='checked']Journalism & Broadcasting<br />[/types][types field='skills-competition' option='36' state='unchecked'][/types]
+[types field='skills-competition' option='37' state='checked']Law Enforcement Services<br />[/types][types field='skills-competition' option='37' state='unchecked'][/types]
+[types field='skills-competition' option='38' state='checked']Leadership<br />[/types][types field='skills-competition' option='38' state='unchecked'][/types]
+[types field='skills-competition' option='39' state='checked']Legal Services<br />[/types][types field='skills-competition' option='39' state='unchecked'][/types]
+[types field='skills-competition' option='40' state='checked']Lodging<br />[/types][types field='skills-competition' option='40' state='unchecked'][/types]
+[types field='skills-competition' option='41' state='checked']Management<br />[/types][types field='skills-competition' option='41' state='unchecked'][/types]
+[types field='skills-competition' option='42' state='checked']Manufacturing Production<br />[/types][types field='skills-competition' option='42' state='unchecked'][/types]
+[types field='skills-competition' option='43' state='checked']Marketing<br />[/types][types field='skills-competition' option='43' state='unchecked'][/types]
+[types field='skills-competition' option='44' state='checked']Marketing Communications<br />[/types][types field='skills-competition' option='44' state='unchecked'][/types]
+[types field='skills-competition' option='45' state='checked']Marketing Research<br />[/types][types field='skills-competition' option='45' state='unchecked'][/types]
+[types field='skills-competition' option='46' state='checked']Medical Diagnostic Services<br />[/types][types field='skills-competition' option='46' state='unchecked'][/types]
+[types field='skills-competition' option='47' state='checked']Mental Health Services<br />[/types][types field='skills-competition' option='47' state='unchecked'][/types]
+[types field='skills-competition' option='48' state='checked']Merchandising<br />[/types][types field='skills-competition' option='48' state='unchecked'][/types]
+[types field='skills-competition' option='49' state='checked']Motorcycle Maintenance<br />[/types][types field='skills-competition' option='49' state='unchecked'][/types]
+[types field='skills-competition' option='50' state='checked']Natural Resources<br />[/types][types field='skills-competition' option='50' state='unchecked'][/types]
+[types field='skills-competition' option='51' state='checked']Network Systems<br />[/types][types field='skills-competition' option='51' state='unchecked'][/types]
+[types field='skills-competition' option='52' state='checked']Nutrition<br />[/types][types field='skills-competition' option='52' state='unchecked'][/types]
+[types field='skills-competition' option='53' state='checked']Performing Arts<br />[/types][types field='skills-competition' option='53' state='unchecked'][/types]
+[types field='skills-competition' option='54' state='checked']Personal Care Services<br />[/types][types field='skills-competition' option='54' state='unchecked'][/types]
+[types field='skills-competition' option='55' state='checked']Physical Therapy<br />[/types][types field='skills-competition' option='55' state='unchecked'][/types]
+[types field='skills-competition' option='56' state='checked']Plumbing<br />[/types][types field='skills-competition' option='56' state='unchecked'][/types]
+[types field='skills-competition' option='57' state='checked']Printing Technology<br />[/types][types field='skills-competition' option='57' state='unchecked'][/types]
+[types field='skills-competition' option='58' state='checked']Professional Sales<br />[/types][types field='skills-competition' option='58' state='unchecked'][/types]
+[types field='skills-competition' option='59' state='checked']Programming & Software Development<br />[/types][types field='skills-competition' option='59' state='unchecked'][/types]
+[types field='skills-competition' option='60' state='checked']Restaurants & Food/Beverage Services<br />[/types][types field='skills-competition' option='60' state='unchecked'][/types]
+[types field='skills-competition' option='61' state='checked']Robotics<br />[/types][types field='skills-competition' option='61' state='unchecked'][/types]
+[types field='skills-competition' option='62' state='checked']Securities & Investments<br />[/types][types field='skills-competition' option='62' state='unchecked'][/types]
+[types field='skills-competition' option='63' state='checked']Security & Protective Services<br />[/types][types field='skills-competition' option='63' state='unchecked'][/types]
+[types field='skills-competition' option='64' state='checked']Teaching/Training<br />[/types][types field='skills-competition' option='64' state='unchecked'][/types]
+[types field='skills-competition' option='65' state='checked']Therapeutic Services<br />[/types][types field='skills-competition' option='65' state='unchecked'][/types]
+[types field='skills-competition' option='66' state='checked']Transportation Operations<br />[/types][types field='skills-competition' option='66' state='unchecked'][/types]
+[types field='skills-competition' option='67' state='checked']Transportation Sales & Service<br />[/types][types field='skills-competition' option='67' state='unchecked'][/types]
+[types field='skills-competition' option='68' state='checked']Travel & Tourism<br />[/types][types field='skills-competition' option='68' state='unchecked'][/types]
+[types field='skills-competition' option='69' state='checked']Veterinary Services<br />[/types][types field='skills-competition' option='69' state='unchecked'][/types]
+[types field='skills-competition' option='70' state='checked']Video Production<br />[/types][types field='skills-competition' option='70' state='unchecked'][/types]
+[types field='skills-competition' option='71' state='checked']Visual Arts<br />[/types][types field='skills-competition' option='71' state='unchecked'][/types]
+[types field='skills-competition' option='72' state='checked']Web & Digital Communications<br />[/types][types field='skills-competition' option='72' state='unchecked'][/types]
+[types field='skills-competition' option='73' state='checked']Web Design<br />[/types][types field='skills-competition' option='73' state='unchecked'][/types]
+[types field='skills-competition' option='74' state='checked']Welding<br />[/types][types field='skills-competition' option='74' state='unchecked'][/types]
