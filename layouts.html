@@ -29,22 +29,24 @@
 <!--Dues and Fees-->
 <h3>Dues &amp; Membership Fees</h3>
 <strong>Student Dues: </strong>$[types field='student-dues' format='FIELD_VALUE'][/types]
-[wpv-conditional if="( $(wpcf-teacher-membership-dues) gt '0' )"]<strong>Teacher/Professional Dues: </strong>$[types field='teacher-dues' format='FIELD_VALUE'][/types][/wpv-conditional]<strong>Chapter Membership Dues: </strong>$[types field='chapter-membership' format='FIELD_VALUE'][/types]
+[wpv-conditional if="( $(wpcf-teacher-membership-dues) gt '0' )"]<strong>Teacher/Professional Dues: </strong>$[types field='teacher-dues' format='FIELD_VALUE'][/types][/wpv-conditional]
+<strong>Chapter Membership Dues: </strong>$[types field='chapter-membership' format='FIELD_VALUE'][/types]
 <h3>Conference Registrations</h3>
 <h4>Fall</h4>
 <strong>Date: </strong>[types field='fall-conference-date2' style='text' format='F j, Y'][/types]
 <strong>Registration: </strong>$[types field='fall-registration' format='FIELD_VALUE'][/types]
-<strong>Location: </strong>[types field='fall-conference-location'][/types]
+<strong>Location: </strong>[types field='fall-conference-location'  format='FIELD_VALUE'][/types]
 <h4>State</h4>
-<p><strong>Date: </strong>[types field='state-conference-date' style='text' format='F j, Y'][/types]
+<strong>Dates: </strong>[types field='state-conference-date' format='FIELD_VALUE'][/types]
 <strong>Registration: </strong>[types field='state-registration' format='FIELD_VALUE'][/types]
-<strong>Location: </strong>[types field='state-conference-location'][/types]
+<strong>Location: </strong>[types field='state-conference-location' format='FIELD_VALUE'][/types]
 <h4>National</h4>
-<strong>Dates: </strong>[types field='national-conference-dates'][/types]
-<strong>Registration: </strong>[types field='national-registration' format='FIELD_VALUE']
-<strong>Location: </strong>[types field='national-conference-location'][/types]
+<strong>Dates: </strong>[types field='national-conference-dates' format='FIELD_VALUE'][/types]
+<strong>Registration: </strong>[types field='national-registration' format='FIELD_VALUE'][/types]
+<strong>Location: </strong>[types field='national-conference-location' format='FIELD_VALUE'][/types]
 <h3>Summary</h3>
 [wpv-conditional if="( $(wpcf-other) gt '0' )"]<strong>Other Fees: </strong> $[types field='other' format='FIELD_VALUE'][/types][/wpv-conditional]<strong>Total Program Fees: </strong>$[types field='total-fees' format='FIELD_VALUE'][/types]
+
 
 <!--Skills Competitions-->
 <h3>Skills Competitions Offered</h3>[types field='skills-competition' option='0' state='checked']Accounting<br />[/types][types field='skills-competition' option='0' state='unchecked'][/types]
