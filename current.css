@@ -123,6 +123,10 @@ body.home h1.entry-title {
 	margin-top:20px;
 }
 
+body.wpbf-cost-comparison {
+	font-size:13px;
+}
+
 .welcome p {
 	padding:0!important;	
 }
@@ -282,4 +286,31 @@ body.single-datasheet h4 {
 }
 body.single-datasheet h3 {
 	padding-bottom:.5em!important;
+}
+
+body.datasheet-template .container-fluid {
+	margin:50px!important;
+}
+body.datasheet-template #header {
+	margin-bottom:25px;
+}
+
+body.datasheet-template .ddl-full-width-row .col-sm-10 {
+	padding-right:50px;
+}
+
+/*Newsletter*/
+
+ol.wpv-loop{
+  list-style-type:none!important;
+margin-bottom:5px;
+}
+
+ol.wpv-loop h2{
+	margin-top:20px;
+	margin-bottom:5px;
+}
+
+body.wpbf-newsletter h1.entry-title {
+	padding-left:40px!important;
 }
